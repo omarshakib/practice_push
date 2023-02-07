@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section1{
+    width: 100%;
+    min-height: 100vh;
+    background: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navigation{
+    display: flex;
+    padding: 10px 10px;
+    align-items: center;
+}
+.navigation img{
+    width: 5%;
+}
+.navigation ul li a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+    color: #000;
+    font-weight: 500;
+}
+.navigation ul li a:hover{
+    color: #02581c;
+    text-decoration: underline rgb(1, 87, 37);
+}
+.navigation ul li {
+    text-decoration: none;
+    list-style: none;
+}
+.navigation ul{
+    display: flex;
+}
+.navigation .searchbox{
+    position: absolute;
+    right: 50px;
+}
+.navigation .searchbox input{
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 7px;
+}
+.navigation .searchbox button{
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.section1 .container1{
+    min-height: 60vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container1 h1{
+    padding-bottom: 10px;
+}
