@@ -46,6 +46,7 @@
     padding: 10px 20px 10px 20px;
     border: none;
     border-radius: 7px;
+    background-color: #02581c;
 }
 .navigation .searchbox button{
     padding: 10px 20px 10px 20px;
@@ -53,6 +54,8 @@
     border-radius: 7px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
+    color: #fcfcfc;
+    background-color: #02581c;
 }
 
 .section1 .container1{
